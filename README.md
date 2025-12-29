@@ -127,7 +127,7 @@ Copy the template:
 cp yourllm.md mybot.md
 ```
 
-The bot uses `ravel.md` by default. To use a different filename, set the `RAVEL_FILE` environment variable or edit `index.js`.
+The bot uses the file specified in `index.js` (default: `ravel.md`). You can change `RAVEL_FILE` in the code to point to your file.
 
 ### 2. Start the Bot
 
@@ -137,7 +137,7 @@ node index.js
 
 You should see:
 ```
-⚡️ Ravel bot is running (Socket Mode)
+⚡️ Bot is running (Socket Mode)
 📁 Using file: /path/to/mybot.md
 📢 Tracking channels: #general, #random
 ```

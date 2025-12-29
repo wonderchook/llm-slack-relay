@@ -219,7 +219,7 @@ app.event("app_mention", async ({ event, client }) => {
 
 (async () => {
     await app.start();
-    console.log("⚡️ Ravel bot is running (Socket Mode)");
+    console.log("⚡️ Bot is running (Socket Mode)");
     console.log(`📁 Using file: ${RAVEL_FILE}`);
     console.log(`📢 Tracking channels: ${CHANNELS.map(c => `#${c.name}`).join(", ")}`);
 

@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Environment (contains secrets)
+.env
+
+# Channel configuration (contains your channel IDs)
+channels.json
+
+# Your actual LLM conversation file (personal data)
+ravel.md
+
+# Claude Code local config
+.claude/
